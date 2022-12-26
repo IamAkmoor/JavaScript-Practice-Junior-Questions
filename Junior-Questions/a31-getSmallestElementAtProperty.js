@@ -52,7 +52,7 @@ var obj = {
   //    }
   // }
   
-  // var output = getSmallestElementAtProperty(obj, 'key');
-  // console.log(output); // --> 1
+  var output = getSmallestElementAtProperty(obj, 'key');
+  console.log(output); // --> 1
   
   

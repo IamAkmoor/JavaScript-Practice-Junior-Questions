@@ -14,5 +14,14 @@ function squareElements(arr) {
   return newArr
 }
 
+//second version
+
+function squareElements(arr) {
+    // your code here
+    let result = arr.map(element=>element*element) 
+    return result
+}
+
 var output = squareElements([1, 2, 3]);
 console.log(output); // --> [1, 4, 9]
+
